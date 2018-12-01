@@ -1,0 +1,46 @@
+/* IMPORTS */
+/************ */
+/* VARIABLES */
+/************ */
+/* MIXINS */
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif; }
+
+/* ANIMATIONS */
+@keyframes moveInLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-100px); }
+  80% {
+    transform: translateX(10px); }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+@keyframes moveInRight {
+  0% {
+    opacity: 0;
+    transform: translateX(100px); }
+  80% {
+    transform: translateX(-10px); }
+  100% {
+    transform: translateX(0);
+    opacity: 1; } }
+@keyframes moveInBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(50px); }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+/* HEADER STYLES */
+
+/*# sourceMappingURL=main.css.map */
